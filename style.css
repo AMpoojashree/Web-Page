@@ -1,0 +1,139 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Apply styles to the header */
+header {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #193f97;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 120px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 110px;
+}
+
+nav li {
+    display: inline;
+     margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Apply styles to the main content sections */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: center;
+    background-color:  #193f97;
+}
+
+.left-content {
+    flex: 1;
+    text-align: left;
+    max-width: 25%;
+    margin-left: 100px;
+  
+}
+
+.left-content h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.left-content p {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 20px;
+   
+}
+
+.right-content {
+    flex: 1;
+    max-width: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 110px;
+}
+
+.signup-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.signup-card h2 {
+    font-size: 24px;
+    color: #072771;
+}
+
+.signup-card form {
+    margin-top: 20px;
+}
+
+.rounded-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.checkbox-label {
+    display: block;
+    margin-top: 10px;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+.rounded-button {
+    width: 100%;
+    background-color: rgb(8, 8, 167);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.rounded-pink-button {
+    width: 40%;
+    background-color: rgb(255, 192, 248);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.separator {
+    margin: 20px 0;
+}
+
+/* Apply styles to the footer */
+footer {
+    padding: 15px;
+    background-color: #193f97;
+}
